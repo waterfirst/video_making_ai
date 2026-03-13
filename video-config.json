@@ -4,63 +4,96 @@
       "template": "Hero",
       "props": {
         "title": "이번 주말 캠핑 여행",
-        "subtitle": "토요일에 떠나기 좋은 캠핑장 추천 4곳"
+        "subtitle": "일상에서 벗어난 완벽한 힐링"
       },
-      "narration": "안녕하세요! 이번 주 토요일, 일상에서 벗어나 자연과 함께할 수 있는 최고의 캠핑 여행지 4곳을 추천해 드립니다.",
+      "narration": "안녕하세요! 복잡한 도심을 떠나 이번 주말, 자연 속에서 완벽한 힐링을 즐길 수 있는 캠핑 여행을 제안합니다.",
       "audioUrl": "audio/scene_0.mp3",
-      "duration": 307
+      "duration": 302
+    },
+    {
+      "template": "Image",
+      "props": {
+        "title": "호숫가의 고요함",
+        "imageUrl": "forest_lake.png",
+        "description": "물 안개 피어오르는 새벽녘, 나만의 온전한 시간"
+      },
+      "narration": "첫 번째로 추천드리는 테마는 호숫가 캠핑입니다. 새벽녘 물안개가 피어오르는 호수를 바라보며 나만의 온전한 시간을 가져보세요.",
+      "audioUrl": "audio/scene_1.mp3",
+      "duration": 336
     },
     {
       "template": "List",
       "props": {
-        "title": "추천 캠핑장 리스트",
+        "title": "추천 캠핑지 4곳",
         "items": [
-          "포천 산정호수 캠핑장 (호수 뷰)",
-          "가평 자라섬 오토캠핑장 (접근성 최고)",
-          "연천 재인폭포 오토캠핑장 (웅장한 폭포)",
-          "양평 용문산 야영장 (울창한 숲)"
+          "포천 산정호수 (호수 뷰)",
+          "가평 자라섬 (수도권 최고 접근성)",
+          "연천 재인폭포 (웅장한 절경)",
+          "양평 용문산 (피톤치드 숲)"
         ]
       },
-      "narration": "호숫가의 정취를 느낄 수 있는 포천부터, 웅장한 폭포가 있는 연천, 그리고 울창한 숲속 힐링을 선사하는 양평까지 다양한 선택지가 있습니다.",
-      "audioUrl": "audio/scene_1.mp3",
-      "duration": 347
+      "narration": "수도권에서 가까운 곳부터 웅장한 폭포가 있는 곳까지, 여러분을 위한 다양한 추천 장소들을 정리했습니다.",
+      "audioUrl": "audio/scene_2.mp3",
+      "duration": 262
+    },
+    {
+      "template": "Image",
+      "props": {
+        "title": "쏟아지는 별빛 아래",
+        "imageUrl": "night_stars.png",
+        "description": "밤하늘 은하수를 마주하는 감동적인 순간"
+      },
+      "narration": "해가 진 뒤에는 쏟아질 듯한 별빛 아래서 낭만적인 밤을 보낼 수 있습니다. 밤하늘의 은하수를 마주하며 잊지 못할 추억을 만들어보세요.",
+      "audioUrl": "audio/scene_3.mp3",
+      "duration": 339
     },
     {
       "template": "Grid",
       "props": {
-        "title": "캠핑 스타일별 추천",
+        "title": "캠핑 필수템 체크리스트",
         "cards": [
           {
-            "title": "숲속 힐링",
-            "desc": "피톤치드 가득한 숲에서 조용한 휴식을 원하는 분들께 추천합니다."
+            "title": "조명 & 랜턴",
+            "desc": "감성 캠핑의 완성은 불멍과 아늑한 조명입니다."
           },
           {
-            "title": "호수 뷰",
-            "desc": "잔잔한 물결을 바라보며 물멍을 즐기고 싶은 분들을 위한 장소입니다."
+            "title": "구급 상자",
+            "desc": "야외 활동 시 안전을 위한 비상 상비약은 필수입니다."
           },
           {
-            "title": "감성 차박",
-            "desc": "장비 설치가 간편하고 풍경이 예쁜 노지 위주의 캠핑지입니다."
+            "title": "온열 장비",
+            "desc": "캠핑장의 밤은 생각보다 춥습니다. 담요와 핫팩을 챙기세요."
           },
           {
-            "title": "반려동물 동반",
-            "desc": "사랑하는 반려견과 함께 뛰어놀 수 있는 전용 구역이 있는 곳입니다."
+            "title": "쓰레기 봉투",
+            "desc": "자연을 보호하기 위해 클린 캠핑을 실천해 주세요."
           }
         ]
       },
-      "narration": "여러분의 캠핑 스타일에 맞춰 선택해 보세요. 숲속 힐링부터 감성 차박까지, 어떤 선택을 하셔도 즐거운 추억이 될 것입니다.",
-      "audioUrl": "audio/scene_2.mp3",
-      "duration": 331
+      "narration": "즐거운 캠핑을 위해 조명, 구급 상자, 온열 장비 등을 꼼꼼히 챙기시는 것도 잊지 마세요. 특히 다녀간 자리는 흔적 없이 정리하는 클린 캠핑이 중요합니다.",
+      "audioUrl": "audio/scene_4.mp3",
+      "duration": 391
+    },
+    {
+      "template": "Image",
+      "props": {
+        "title": "상쾌한 아침 한 잔",
+        "imageUrl": "morning_coffee.png",
+        "description": "숲의 소리를 들으며 마시는 따뜻한 커피"
+      },
+      "narration": "상쾌한 아침, 숲의 소리를 배경 삼아 마시는 따뜻한 커피 한 잔으로 여행을 마무리해 보세요.",
+      "audioUrl": "audio/scene_5.mp3",
+      "duration": 237
     },
     {
       "template": "Hero",
       "props": {
-        "title": "지금 바로 예약하세요!",
-        "subtitle": "즐거운 주말 캠핑 되시길 바랍니다."
+        "title": "지금 떠나보세요",
+        "subtitle": "당신의 즐거운 주말을 응원합니다."
       },
-      "narration": "인기 있는 캠핑장은 예약이 빨리 마감되니 지금 바로 확인해 보세요. 행복한 캠핑 여행 되세요! 감사합니다.",
-      "audioUrl": "audio/scene_3.mp3",
-      "duration": 327
+      "narration": "이번 주말, 당신을 기다리는 자연으로 지금 바로 떠나보세요. 시청해 주셔서 감사합니다!",
+      "audioUrl": "audio/scene_6.mp3",
+      "duration": 271
     }
   ]
 }

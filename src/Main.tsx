@@ -3,6 +3,7 @@ import { interpolate, Sequence, useCurrentFrame, useVideoConfig, Audio, staticFi
 import { HeroScene } from './scenes/Hero';
 import { ListScene } from './scenes/List';
 import { GridScene } from './scenes/Grid';
+import { ImageScene } from './scenes/Image';
 
 export const Main: React.FC<any> = ({ scenes }) => {
 	const frame = useCurrentFrame();
@@ -20,6 +21,7 @@ export const Main: React.FC<any> = ({ scenes }) => {
 				let SceneComponent: any = HeroScene;
 				if (scene.template === 'List') SceneComponent = ListScene;
 				if (scene.template === 'Grid') SceneComponent = GridScene;
+				if (scene.template === 'Image') SceneComponent = ImageScene;
 
 				return (
 					<Sequence key={index} from={startFrame} durationInFrames={duration}>
