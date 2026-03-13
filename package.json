@@ -1,0 +1,24 @@
+{
+  "name": "video-app",
+  "version": "1.0.0",
+  "description": "Gemini-powered video generation",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "remotion preview src/index.ts",
+    "render": "remotion render src/index.ts",
+    "tts": "python scripts/tts.py"
+  },
+  "dependencies": {
+    "remotion": "^4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": "^0.263.1",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
